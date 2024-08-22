@@ -55,3 +55,22 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
     right: 0px;
     font-size: 20px;
 }
+
+.btnCustom{
+    background-color: var(--main);
+    color: var(--sec);
+}
+
+.btnCustom:hover{
+    background-color: var(--sec);
+    color: var(--main);
+}
+
+
+.bgContainer{
+    background-color: var(--main);
+}
+
+.cardCustom {
+    background-color: var(--sec);
+}

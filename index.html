@@ -55,8 +55,8 @@
                 </li>
             </ul>
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="cercaPrenota entro 24H e ricevrai unosconto del 50%" aria-label="Search">
-                <button class="btn btn-outline-warning" type="submit">Cerca</button>
+                <input class="form-control me-2" type="search" placeholder="cerca" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">cerca</button>
             </form>
         </div>
     </div>
@@ -66,7 +66,7 @@
 
 <!--inizio carousel-->
 
-<div class="container-fluid">
+<div class="container-fluid bg-warning">
     <div class="row">
         <div class="col-12 col-md-6 p-0">
             <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
@@ -98,79 +98,74 @@
 
 <!-- inizio card -->
 
-<div class="container-fluid my-5 ">
+<div class="container-fluid bgContainer ">
     <div class="row">
         <div class="col-12 text-center mb-5">
-            <h2>
+            <h2 class="my-5 text-white">
                 Le case che piacciono di più agli ospiti 
             </h2>
         </div>
     </div>
     <div class="row justify-content-evenly">
         <div class="col-5 col-md-2">
-            <div class="card mb-5">
+            <div class="card cardCustom mb-5">
                 <div class="badge d-flex text-center align-items-center justify-content-center text-warning">7.8</div>
                 <img src="./MEDIA/card1.webp" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h4>
+                    <h4 class="text-center">
                         Hotel 1 
                     </h4>
-                    <p class="card-text">Centro storico Cracovia</p>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    <p class="card-text text-center">Centro storico Cracovia</p>
+                    <button type="button" class="btn btnCustom" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         A partire da € 110
                     </button>
                     
                 </div>
             </div>
-            
-            
         </div>
         
         <div class="col-5 col-md-2">
-            <div class="card mb-5">
+            <div class="card cardCustom mb-5">
                 <div class="badge d-flex text-center align-items-center justify-content-center text-warning">9.1</div>
                 <img src="./MEDIA/card2.webp" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h4>
+                    <h4 class="text-center">
                         Hotel 2
                     </h4>
-                    <p class="card-text">Centro storico Cracovia</p>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <p class="card-text text-center">Centro storico Istambul</p>
+                    <button type="button" class="btn btnCustom" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                         A partire da € 350
                     </button>
                 </div>
             </div>
-            
-            
         </div>
         
         <div class="col-5 col-md-2">
-            
-            <div class="card">
+            <div class="card cardCustom">
                 <div class="badge d-flex text-center align-items-center justify-content-center text-warning">8.5</div>
                 <img src="./MEDIA/card3.webp" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h4>
+                    <h4 class="text-center">
                         Hotel 3 
                     </h4>
-                    <p class="card-text">Centro storico Cracovia</p>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    <p class="card-text text-center">Centro storico Barcellona</p>
+                    <button type="button" class="btn btnCustom" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                         A partire da € 250
                     </button>
                 </div>
             </div>
         </div>
+        
         <div class="col-5 col-md-2">
-            
-            <div class="card">
+            <div class="card cardCustom">
                 <div class="badge d-flex text-center align-items-center justify-content-center text-warning">8.0</div>
                 <img src="./MEDIA/card4.webp" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h4>
+                    <h4 class="text-center">
                         Hotel 4 
                     </h4>
-                    <p class="card-text">Centro storico Cracovia</p>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <p class="card-text text-center">Centro storico Roma</p>
+                    <button type="button" class="btn btnCustom" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                         A partire da € 190
                     </button>
                 </div>
@@ -179,88 +174,91 @@
     </div>
 </div>
 
-
-
-
-
 <!-- fine card -->
 
 <body>
-<!-- Modal 1 -->
-<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel1">Prenota Ora</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+    
+    
+    
+    
+    
+    
+    <!-- Modal 1 -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1">Prenota Ora</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Prenota entro 24H e riceverai unosconto del 50%
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btnCustom">Acquista</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-            Prenota entro 24H e riceverai unosconto del 50%
-        </div>
-        <div class="modal-footer">
-          
-          <button type="button" class="btn btn-primary">Acquista</button>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Modal 2-->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel2">Prenota Ora</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+    <!-- Modal 2-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">Prenota Ora</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Prenota entro 24H e riceverai unosconto del 50%
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btnCustom">Acquista</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-            Prenota entro 24H e riceverai unosconto del 50%
-        </div>
-        <div class="modal-footer">
-          
-          <button type="button" class="btn btn-primary">Acquista</button>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Modal 3-->
-<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel3">Prenota Ora</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+    <!-- Modal 3-->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Prenota Ora</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Prenota entro 24H e riceverai unosconto del 50%
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btnCustom">Acquista</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          Prenota entro 24H e riceverai unosconto del 50%
-        </div>
-        <div class="modal-footer">
-         
-          <button type="button" class="btn btn-primary">Acquista</button>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Modal 4 -->
-<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel4">Prenota Ora</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+    <!-- Modal 4 -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel4">Prenota Ora</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Prenota entro 24H e ricevrai unosconto del 50%
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btnCustom">Acquista</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          Prenota entro 24H e ricevrai unosconto del 50%
-        </div>
-        <div class="modal-footer">
-          
-          <button type="button" class="btn btn-primary">Acquista</button>
-        </div>
-      </div>
     </div>
-  </div>
     
     
     
