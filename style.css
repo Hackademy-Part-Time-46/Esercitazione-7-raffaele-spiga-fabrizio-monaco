@@ -4,6 +4,7 @@ body{
     font-style: normal;
     margin: 0;
     padding: 0;
+    
 }
 
 h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
@@ -43,6 +44,14 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
     justify-content: center;
 }
 
-.AltezzaCarousel{
-    height: 80vh;
+.badge{
+    height: 40px;
+    width: 40px;
+    background-color: var(--main);
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    font-size: 20px;
 }
