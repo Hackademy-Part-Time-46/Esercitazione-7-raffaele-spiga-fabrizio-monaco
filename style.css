@@ -62,15 +62,40 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
 }
 
 .btnCustom:hover{
-    background-color: var(--sec);
+    background-color: green;
     color: var(--main);
+}
+
+.bgCarousel {
+    background:linear-gradient(var(--main) 5%, var(--sec) 95%);
 }
 
 
 .bgContainer{
-    background-color: var(--main);
+    background:linear-gradient(var(--sec) 5%, var(--main) 95%);
+    border-bottom: 2px solid var(--sec) ;
 }
 
 .cardCustom {
     background-color: var(--sec);
+}
+
+.bgFooter{
+    
+    background:linear-gradient(var(--main) 5%, var(--sec) 95%);
+}
+
+.nav-link1{
+    color: white !important;
+}
+
+.nav-link1:hover{
+    color: var(--sec) !important;
+}
+
+.bi {
+    background-color: var(--main);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
